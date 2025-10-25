@@ -61,6 +61,7 @@ export type Database = {
           brand_id: string
           created_at: string | null
           id: string
+          image_url: string | null
           model_name: string
           release_date: string | null
           series: string | null
@@ -69,6 +70,7 @@ export type Database = {
           brand_id: string
           created_at?: string | null
           id?: string
+          image_url?: string | null
           model_name: string
           release_date?: string | null
           series?: string | null
@@ -77,6 +79,7 @@ export type Database = {
           brand_id?: string
           created_at?: string | null
           id?: string
+          image_url?: string | null
           model_name?: string
           release_date?: string | null
           series?: string | null
